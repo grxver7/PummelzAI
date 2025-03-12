@@ -4,9 +4,8 @@
     "\\Assets",
     "\\Assets\\minigame",
     "\\Assets\\minigame\\pummelz",
-    "\\Assets\\minigame\\pummelz\\ai",
-    "\\Assets\\minigame\\pummelz\\ai\\strategicBehaviour"
+    "\\Assets\\minigame\\pummelz\\ai"
   ],
-  "SelectedNode": "\\Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\chilly\u0026killy.cs",
+  "SelectedNode": "\\Assets\\minigame\\pummelz\\ai\\MGPumAIPlayerController.cs",
   "PreviewInSolutionExplorer": false
 }

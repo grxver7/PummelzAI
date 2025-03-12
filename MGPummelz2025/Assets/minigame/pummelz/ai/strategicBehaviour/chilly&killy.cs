@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 namespace mg.pummelz
 {
@@ -51,11 +52,11 @@ namespace mg.pummelz
             return findRandomMoveCommand(chilly);
         }
 
-        // Gegnerischer Chilly: Töte ihn, wenn er Schaden durch Lava erlitten hat
+        // Gegnerischer Killy: Töte ihn so schnell wie möglich
+        // Gegnerischer Chilly: Töte ihn, wenn er Schaden erlitten hat
         private MGPumCommand handleEnemyChilly(MGPumUnit chilly)
         {
-            // Überprüfe, ob Chilly Schaden durch Lava erlitten hat
-            if (chilly.hasMarker(MGPumMarkerAbility.Type.LavaDamage))
+            if (chilly.currentHealth < chilly.currentMaxHealth) // Prüft, ob Chilly Schaden erlitten hat
             {
                 // Finde eine Einheit, die Chilly angreifen kann
                 MGPumUnit attacker = findBestAttacker(chilly);
@@ -69,7 +70,7 @@ namespace mg.pummelz
                 }
             }
 
-            return null; // Keine Aktion, wenn Chilly nicht in Lava war
+            return null; // Keine Aktion, wenn Chilly keinen Schaden erlitten hat
         }
 
         // Methode zur Steuerung von Killy
@@ -143,7 +144,7 @@ namespace mg.pummelz
             foreach (MGPumUnit enemy in state.getAllUnitsInZone(MGPumZoneType.Battlegrounds, state.getOpponent(unit.ownerID).playerID))
             {
                 int distance = Mathf.Abs(enemy.field.coords.x - coords.x) + Mathf.Abs(enemy.field.coords.y - coords.y);
-                if (distance <= enemy.range)
+                if (distance <= enemy.currentRange)
                 {
                     return false;
                 }
@@ -155,13 +156,6 @@ namespace mg.pummelz
         private MGPumField findDangerField(MGPumUnit unit)
         {
             // Implementiere die Logik zur Bestimmung eines gefährlichen Feldes
-            return null;
-        }
-
-        // Hilfsmethode: Finde ein wertvolles Ziel (Czaremir, Buffy, Spot, Link)
-        private MGPumUnit findValuableTarget()
-        {
-            // Implementiere die Logik zur Bestimmung eines wertvollen Ziels
             return null;
         }
 

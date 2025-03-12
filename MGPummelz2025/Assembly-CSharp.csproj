@@ -63,6 +63,7 @@
     <Compile Include="Assets\minigame\pummelz\effect\replacement\MGPumReduceDamageREffect.cs" />
     <Compile Include="Assets\minigame\common\MGUtils.cs" />
     <Compile Include="Assets\minigame\pummelz\events\super\MGPumInitialSpawnSEvent.cs" />
+    <Compile Include="Assets\minigame\pummelz\ai\strategicBehaviour\czaremir.cs" />
     <Compile Include="Assets\minigame\pummelz\frontend\MGPummelz.cs" />
     <Compile Include="Assets\minigame\pummelz\events\super\MGPumDetermineResultSEvent.cs" />
     <Compile Include="Assets\minigame\pummelz\events\complex\MGPumComplexGameEvent.cs" />
@@ -98,11 +99,13 @@
     <Compile Include="Assets\minigame\pummelz\filters\MGPumOpponentFilter.cs" />
     <Compile Include="Assets\minigame\pummelz\filters\MGPumSubTypeFilter.cs" />
     <Compile Include="Assets\minigame\pummelz\effect\replacement\MGPumRedirectDamageREffect.cs" />
+    <Compile Include="Assets\minigame\pummelz\ai\strategicBehaviour\buffy.cs" />
     <Compile Include="Assets\minigame\pummelz\MGPumConstants.cs" />
     <Compile Include="Assets\minigame\pummelz\events\interfaces\MGPumPlayerReferencable.cs" />
     <Compile Include="Assets\rccg\frontend\animations\ImageAnimatorState.cs" />
     <Compile Include="Assets\minigame\pummelz\events\MGPumSetHealthEvent.cs" />
     <Compile Include="Assets\minigame\pummelz\filters\MGPumEnemyFilter.cs" />
+    <Compile Include="Assets\minigame\pummelz\ai\strategicBehaviour\spot.cs" />
     <Compile Include="Assets\rccg\I18nizable.cs" />
     <Compile Include="Assets\minigame\pummelz\events\super\MGPumMoveSEvent.cs" />
     <Compile Include="Assets\minigame\pummelz\filters\MGPumFF.cs" />
@@ -134,6 +137,7 @@
     <Compile Include="Assets\minigame\pummelz\zones\MGPumDestroyedZone.cs" />
     <Compile Include="Assets\rccg\frontend\animations\AniF.cs" />
     <Compile Include="Assets\minigame\pummelz\matcher\MGPumAttackChainMatcher.cs" />
+    <Compile Include="Assets\minigame\pummelz\ai\strategicBehaviour\prio.cs" />
     <Compile Include="Assets\minigame\pummelz\conditions\MGPumDuration.cs" />
     <Compile Include="Assets\minigame\pummelz\conditions\events\MGPumLeaveBattlegroundsDestroyCondition.cs" />
     <Compile Include="Assets\minigame\pummelz\events\interfaces\MGPumUnitReferencable.cs" />
@@ -145,6 +149,7 @@
     <Compile Include="Assets\minigame\pummelz\zones\MGPumZone.cs" />
     <Compile Include="Assets\minigame\pummelz\counts\MGPumSelectedTroopHealthCount.cs" />
     <Compile Include="Assets\minigame\pummelz\sets\MGPumDebugSet.cs" />
+    <Compile Include="Assets\minigame\pummelz\ai\strategicBehaviour\wolly.cs" />
     <Compile Include="Assets\minigame\pummelz\state\MGPumEffectQueueItem.cs" />
     <Compile Include="Assets\rccg\frontend\animations\CoroutineGUIAnimator.cs" />
     <Compile Include="Assets\minigame\pummelz\effect\MGPumHealCharacterEffect.cs" />
@@ -229,10 +234,12 @@
     <Compile Include="Assets\minigame\common\MGAIConfigurator.cs" />
     <Compile Include="Assets\minigame\pummelz\filters\MGPumDummyFilter.cs" />
     <Compile Include="Assets\minigame\pummelz\unit\MGPumUnit.cs" />
+    <Compile Include="Assets\minigame\pummelz\ai\strategicBehaviour\link.cs" />
     <Compile Include="Assets\rccg\frontend\animations\GUIAnimation.cs" />
     <Compile Include="Assets\minigame\pummelz\commands\MGPumConcedeGameCommand.cs" />
     <Compile Include="Assets\minigame\pummelz\abilities\MGPumAF.cs" />
     <Compile Include="Assets\minigame\pummelz\state\MGPumGameLog.cs" />
+    <Compile Include="Assets\minigame\pummelz\ai\strategicBehaviour\chilly&amp;killy.cs" />
     <Compile Include="Assets\minigame\pummelz\effect\MGPumHealCountEffect.cs" />
     <Compile Include="Assets\minigame\pummelz\effect\MGPumCreateUnitEffect.cs" />
     <Compile Include="Assets\rccg\frontend\animations\ImageAnimator.cs" />
@@ -283,6 +290,7 @@
     <Compile Include="Assets\minigame\pummelz\conditions\events\MGPumEnterBattlegroundsCondition.cs" />
     <Compile Include="Assets\minigame\pummelz\selectors\MGPumSelection.cs" />
     <Compile Include="Assets\minigame\pummelz\conditions\MGPumSubCondition.cs" />
+    <Compile Include="Assets\minigame\pummelz\ai\strategicBehaviour\fluffy.cs" />
     <Compile Include="Assets\minigame\pummelz\effect\replacement\MGPumDoubleDamageREffect.cs" />
     <Compile Include="Assets\minigame\pummelz\conditions\events\MGPumEventCondition.cs" />
     <Compile Include="Assets\minigame\pummelz\effect\MGPumDamageCharacterCountEffect.cs" />
@@ -293,6 +301,7 @@
     <Compile Include="Assets\minigame\pummelz\conditions\state\MGPumCountMaxCondition.cs" />
     <Compile Include="Assets\minigame\pummelz\events\MGPumFizzleEffectEvent.cs" />
     <Compile Include="Assets\rccg\frontend\animations\WaitAnimator.cs" />
+    <Compile Include="Assets\minigame\pummelz\ai\strategicBehaviour\bummz.cs" />
     <Compile Include="Assets\minigame\pummelz\conditions\events\MGPumDealDamageCondition.cs" />
     <Compile Include="Assets\minigame\pummelz\MGPumUtils.cs" />
     <Compile Include="Assets\minigame\pummelz\MGPumPlayer.cs" />
@@ -305,9 +314,12 @@
     <Compile Include="Assets\minigame\pummelz\filters\MGPumAlliedFilter.cs" />
     <Compile Include="Assets\minigame\pummelz\effect\MGPumConditionalEffect.cs" />
     <Compile Include="Assets\minigame\pummelz\filters\MGPumZoneFilter.cs" />
+    <Compile Include="Assets\minigame\pummelz\ai\strategicBehaviour\haley.cs" />
     <Compile Include="Assets\minigame\pummelz\events\MGPumZoneChangeEvent.cs" />
+    <Compile Include="Assets\minigame\pummelz\ai\strategicBehaviour\mampfred.cs" />
     <Compile Include="Assets\minigame\pummelz\events\MGPumLoseGameEvent.cs" />
     <Compile Include="Assets\rccg\frontend\animations\GUIAnimator.cs" />
+    <Compile Include="Assets\minigame\pummelz\ai\MGPumRandomAIController.cs" />
     <Compile Include="Assets\minigame\pummelz\matcher\MGPumFieldChainMatcher.cs" />
     <Compile Include="Assets\minigame\common\MGTileChunk.cs" />
     <Compile Include="Assets\rccg\frontend\animations\CurveAnimation.cs" />
@@ -315,7 +327,6 @@
     <Compile Include="Assets\minigame\pummelz\selectors\references\MGPumTriggerEventUnitFieldReference.cs" />
     <Compile Include="Assets\minigame\pummelz\effect\MGPumBuffEffect.cs" />
     <Compile Include="Assets\minigame\pummelz\conditions\events\MGPumHealedCondition.cs" />
-    <Compile Include="Assets\minigame\pummelz\ai\MGPumRandomAIController.cs" />
     <Compile Include="Assets\minigame\ai\MGAIEvaluator.cs" />
     <Compile Include="Assets\minigame\pummelz\selectors\MGPumListFilter.cs" />
     <Compile Include="Assets\minigame\common\MGSpriteAnimator.cs" />

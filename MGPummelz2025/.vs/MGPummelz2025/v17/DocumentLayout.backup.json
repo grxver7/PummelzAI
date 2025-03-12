@@ -1,37 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Studium\\Semester6\\AI Gaming\\MGPummelz2025\\",
+  "WorkspaceRootPath": "C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Studium\\Semester6\\AI Gaming\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\chilly\u0026killy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\chilly\u0026killy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD1052DD-1427-3526-84F9-6D7C684F5F2A}|Assembly-CSharp.csproj|c:\\studium\\semester6\\ai gaming\\pummelzai\\mgpummelz2025\\assets\\minigame\\pummelz\\ai\\mgpumstrategicai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD1052DD-1427-3526-84F9-6D7C684F5F2A}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\mgpumstrategicai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Studium\\Semester6\\AI Gaming\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\bummz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\bummz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD1052DD-1427-3526-84F9-6D7C684F5F2A}|Assembly-CSharp.csproj|c:\\studium\\semester6\\ai gaming\\pummelzai\\mgpummelz2025\\assets\\minigame\\pummelz\\ai\\strategicbehaviour\\czaremir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD1052DD-1427-3526-84F9-6D7C684F5F2A}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\strategicbehaviour\\czaremir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Studium\\Semester6\\AI Gaming\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\MGPumRandomAIController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\minigame\\pummelz\\ai\\MGPumRandomAIController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD1052DD-1427-3526-84F9-6D7C684F5F2A}|Assembly-CSharp.csproj|c:\\studium\\semester6\\ai gaming\\pummelzai\\mgpummelz2025\\assets\\minigame\\pummelz\\ai\\strategicbehaviour\\chilly\u0026killy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD1052DD-1427-3526-84F9-6D7C684F5F2A}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\strategicbehaviour\\chilly\u0026killy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lxcxh\\AppData\\Local\\Temp\\420c491e-f98b-4623-84f6-ab0f66cd8552_MGPummelz2025 (1).zip.552\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\MGPumStudentAIPlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD1052DD-1427-3526-84F9-6D7C684F5F2A}|Assembly-CSharp.csproj|c:\\studium\\semester6\\ai gaming\\pummelzai\\mgpummelz2025\\assets\\minigame\\pummelz\\ai\\strategicbehaviour\\buffy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD1052DD-1427-3526-84F9-6D7C684F5F2A}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\strategicbehaviour\\buffy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Studium\\Semester6\\AI Gaming\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\MGPumStudentAIPlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\minigame\\pummelz\\ai\\MGPumStudentAIPlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD1052DD-1427-3526-84F9-6D7C684F5F2A}|Assembly-CSharp.csproj|c:\\studium\\semester6\\ai gaming\\pummelzai\\mgpummelz2025\\assets\\minigame\\pummelz\\ai\\strategicbehaviour\\fluffy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD1052DD-1427-3526-84F9-6D7C684F5F2A}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\strategicbehaviour\\fluffy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Studium\\Semester6\\AI Gaming\\MGPummelz2025\\Assets\\minigame\\pummelz\\frontend\\MGPummelz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\minigame\\pummelz\\frontend\\MGPummelz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD1052DD-1427-3526-84F9-6D7C684F5F2A}|Assembly-CSharp.csproj|C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\assets\\minigame\\pummelz\\ai\\mgpumstudentaiplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD1052DD-1427-3526-84F9-6D7C684F5F2A}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\mgpumstudentaiplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Studium\\Semester6\\AI Gaming\\MGPummelz2025\\Assets\\minigame\\common\\MGAIConfigurator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\minigame\\common\\MGAIConfigurator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD1052DD-1427-3526-84F9-6D7C684F5F2A}|Assembly-CSharp.csproj|c:\\studium\\semester6\\ai gaming\\pummelzai\\mgpummelz2025\\assets\\minigame\\pummelz\\ai\\strategicbehaviour\\wolly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD1052DD-1427-3526-84F9-6D7C684F5F2A}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\strategicbehaviour\\wolly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Studium\\Semester6\\AI Gaming\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\MGPumSimpleAIPlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\minigame\\pummelz\\ai\\MGPumSimpleAIPlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD1052DD-1427-3526-84F9-6D7C684F5F2A}|Assembly-CSharp.csproj|c:\\studium\\semester6\\ai gaming\\pummelzai\\mgpummelz2025\\assets\\minigame\\pummelz\\ai\\strategicbehaviour\\haley.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD1052DD-1427-3526-84F9-6D7C684F5F2A}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\strategicbehaviour\\haley.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD1052DD-1427-3526-84F9-6D7C684F5F2A}|Assembly-CSharp.csproj|c:\\studium\\semester6\\ai gaming\\pummelzai\\mgpummelz2025\\assets\\minigame\\pummelz\\ai\\strategicbehaviour\\link.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD1052DD-1427-3526-84F9-6D7C684F5F2A}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\strategicbehaviour\\link.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD1052DD-1427-3526-84F9-6D7C684F5F2A}|Assembly-CSharp.csproj|c:\\studium\\semester6\\ai gaming\\pummelzai\\mgpummelz2025\\assets\\minigame\\pummelz\\ai\\strategicbehaviour\\spot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD1052DD-1427-3526-84F9-6D7C684F5F2A}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\strategicbehaviour\\spot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD1052DD-1427-3526-84F9-6D7C684F5F2A}|Assembly-CSharp.csproj|C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\assets\\minigame\\pummelz\\frontend\\mgpummelz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD1052DD-1427-3526-84F9-6D7C684F5F2A}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\frontend\\mgpummelz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD1052DD-1427-3526-84F9-6D7C684F5F2A}|Assembly-CSharp.csproj|C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\assets\\minigame\\common\\mgaiconfigurator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD1052DD-1427-3526-84F9-6D7C684F5F2A}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\common\\mgaiconfigurator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,15 +58,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MGPumStudentAIPlayerController.cs",
-              "DocumentMoniker": "C:\\Studium\\Semester6\\AI Gaming\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\MGPumStudentAIPlayerController.cs",
+              "DocumentMoniker": "C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\MGPumStudentAIPlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\MGPumStudentAIPlayerController.cs",
-              "ToolTip": "C:\\Studium\\Semester6\\AI Gaming\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\MGPumStudentAIPlayerController.cs",
+              "ToolTip": "C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\MGPumStudentAIPlayerController.cs",
               "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\MGPumStudentAIPlayerController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -59,115 +76,145 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "chilly\u0026killy.cs",
-              "DocumentMoniker": "C:\\Studium\\Semester6\\AI Gaming\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\chilly\u0026killy.cs",
-              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\chilly\u0026killy.cs",
-              "ToolTip": "C:\\Studium\\Semester6\\AI Gaming\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\chilly\u0026killy.cs",
-              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\chilly\u0026killy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T10:44:46.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "bummz.cs",
-              "DocumentMoniker": "C:\\Studium\\Semester6\\AI Gaming\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\bummz.cs",
-              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\bummz.cs",
-              "ToolTip": "C:\\Studium\\Semester6\\AI Gaming\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\bummz.cs",
-              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\bummz.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "Title": "czaremir.cs",
+              "DocumentMoniker": "C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\czaremir.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\czaremir.cs",
+              "ToolTip": "C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\czaremir.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\czaremir.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAUwH0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T10:41:40.535Z",
+              "WhenOpened": "2025-03-12T22:34:17.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MGPumRandomAIController.cs",
-              "DocumentMoniker": "C:\\Studium\\Semester6\\AI Gaming\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\MGPumRandomAIController.cs",
-              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\MGPumRandomAIController.cs",
-              "ToolTip": "C:\\Studium\\Semester6\\AI Gaming\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\MGPumRandomAIController.cs",
-              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\MGPumRandomAIController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAbAAAAAAAAAA==",
+              "Title": "chilly\u0026killy.cs",
+              "DocumentMoniker": "C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\chilly\u0026killy.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\chilly\u0026killy.cs",
+              "ToolTip": "C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\chilly\u0026killy.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\chilly\u0026killy.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAjwIIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T10:18:57.684Z",
+              "WhenOpened": "2025-03-12T21:06:48.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MGPumStrategicAI.cs",
+              "DocumentMoniker": "C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\MGPumStrategicAI.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\MGPumStrategicAI.cs",
+              "ToolTip": "C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\MGPumStrategicAI.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\MGPumStrategicAI.cs",
+              "ViewState": "AgIAANgBAAAAAAAAAAArwPwBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T10:36:20.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "wolly.cs",
+              "DocumentMoniker": "C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\wolly.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\wolly.cs",
+              "ToolTip": "C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\wolly.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\wolly.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAArwEUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T21:07:47.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "link.cs",
+              "DocumentMoniker": "C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\link.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\link.cs",
+              "ToolTip": "C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\link.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\link.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAIA6wEkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T21:02:37.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "fluffy.cs",
+              "DocumentMoniker": "C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\fluffy.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\fluffy.cs",
+              "ToolTip": "C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\fluffy.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\fluffy.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAArwE0AAACCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T21:06:32.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MGPumStudentAIPlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\lxcxh\\AppData\\Local\\Temp\\420c491e-f98b-4623-84f6-ab0f66cd8552_MGPummelz2025 (1).zip.552\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\MGPumStudentAIPlayerController.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\lxcxh\\AppData\\Local\\Temp\\420c491e-f98b-4623-84f6-ab0f66cd8552_MGPummelz2025 (1).zip.552\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\MGPumStudentAIPlayerController.cs",
-              "ToolTip": "C:\\Users\\lxcxh\\AppData\\Local\\Temp\\420c491e-f98b-4623-84f6-ab0f66cd8552_MGPummelz2025 (1).zip.552\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\MGPumStudentAIPlayerController.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Users\\lxcxh\\AppData\\Local\\Temp\\420c491e-f98b-4623-84f6-ab0f66cd8552_MGPummelz2025 (1).zip.552\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\MGPumStudentAIPlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Title": "buffy.cs",
+              "DocumentMoniker": "C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\buffy.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\buffy.cs",
+              "ToolTip": "C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\buffy.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\buffy.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwFgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T10:16:37.451Z",
+              "WhenOpened": "2025-03-12T21:05:24.738Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "haley.cs",
+              "DocumentMoniker": "C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\haley.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\haley.cs",
+              "ToolTip": "C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\haley.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\haley.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAjwFIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T19:10:50.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "spot.cs",
+              "DocumentMoniker": "C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\spot.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\spot.cs",
+              "ToolTip": "C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\spot.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\strategicBehaviour\\spot.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAUwEcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T19:09:55.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "MGPummelz.cs",
-              "DocumentMoniker": "C:\\Studium\\Semester6\\AI Gaming\\MGPummelz2025\\Assets\\minigame\\pummelz\\frontend\\MGPummelz.cs",
+              "DocumentMoniker": "C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\Assets\\minigame\\pummelz\\frontend\\MGPummelz.cs",
               "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\frontend\\MGPummelz.cs",
-              "ToolTip": "C:\\Studium\\Semester6\\AI Gaming\\MGPummelz2025\\Assets\\minigame\\pummelz\\frontend\\MGPummelz.cs",
+              "ToolTip": "C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\Assets\\minigame\\pummelz\\frontend\\MGPummelz.cs",
               "RelativeToolTip": "Assets\\minigame\\pummelz\\frontend\\MGPummelz.cs",
-              "ViewState": "AgIAAPAAAAAAAAAAAAAgwP0AAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4BAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T09:50:59.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "MGAIConfigurator.cs",
-              "DocumentMoniker": "C:\\Studium\\Semester6\\AI Gaming\\MGPummelz2025\\Assets\\minigame\\common\\MGAIConfigurator.cs",
+              "DocumentMoniker": "C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\Assets\\minigame\\common\\MGAIConfigurator.cs",
               "RelativeDocumentMoniker": "Assets\\minigame\\common\\MGAIConfigurator.cs",
-              "ToolTip": "C:\\Studium\\Semester6\\AI Gaming\\MGPummelz2025\\Assets\\minigame\\common\\MGAIConfigurator.cs",
+              "ToolTip": "C:\\Studium\\Semester6\\AI Gaming\\PummelzAI\\MGPummelz2025\\Assets\\minigame\\common\\MGAIConfigurator.cs",
               "RelativeToolTip": "Assets\\minigame\\common\\MGAIConfigurator.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwCYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T09:50:46.698Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "9b776398-63c6-4388-98df-24fe85771646",
-        "Display": 1,
-        "X": -134,
-        "Y": 404,
-        "Width": 1401,
-        "Height": 784,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MGPumSimpleAIPlayerController.cs",
-              "DocumentMoniker": "C:\\Studium\\Semester6\\AI Gaming\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\MGPumSimpleAIPlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\MGPumSimpleAIPlayerController.cs",
-              "ToolTip": "C:\\Studium\\Semester6\\AI Gaming\\MGPummelz2025\\Assets\\minigame\\pummelz\\ai\\MGPumSimpleAIPlayerController.cs",
-              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\MGPumSimpleAIPlayerController.cs",
-              "ViewState": "AgIAAAABAAAAAAAAAAAAwCwBAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T09:51:34.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T09:50:46.698Z"
             }
           ]
         }
