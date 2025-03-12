@@ -1,0 +1,462 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|c:\\dhbw\\ai_game_development\\projekte\\mgpummelzfull2024\\assets\\minigame\\pummelz\\ai\\2024\\mgpumbruteforceaiplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\2024\\mgpumbruteforceaiplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\ai\\2024\\mgpumatzenaiplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\2024\\mgpumatzenaiplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\ai\\2024\\mgpumallyourbasebelongtouscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\2024\\mgpumallyourbasebelongtouscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\ai\\2024\\pengustudios\\mgpumpengustudiosaiplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\2024\\pengustudios\\mgpumpengustudiosaiplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\ai\\2024\\miyagidoki\\mgpummiyagidokiaiplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\2024\\miyagidoki\\mgpummiyagidokiaiplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\ai\\2024\\mgpumtrenaiplayercontroller\\mgpumtrenaiplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\2024\\mgpumtrenaiplayercontroller\\mgpumtrenaiplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\ai\\2024\\mgpumneuralnetworkninjas\\mgpumneuralnetworkninjasaiplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\2024\\mgpumneuralnetworkninjas\\mgpumneuralnetworkninjasaiplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\ai\\2024\\debugpunktlogklammeraufklammerzu\\mgpumdebugpunktlogklammeraufklammerzuaiplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\2024\\debugpunktlogklammeraufklammerzu\\mgpumdebugpunktlogklammeraufklammerzuaiplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\ai\\2024\\aiprofis\\mgpumaiprofisaiplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\2024\\aiprofis\\mgpumaiprofisaiplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\frontend\\mgpummelz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\frontend\\mgpummelz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\frontend\\mgpumfieldrender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\frontend\\mgpumfieldrender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\encounters\\mgpumcampaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\encounters\\mgpumcampaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\ai\\mgpumsimpleaiplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\mgpumsimpleaiplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\ai\\2024\\mgpumneuralnetworkninjas\\mgpumneuralnetworkninjasmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\2024\\mgpumneuralnetworkninjas\\mgpumneuralnetworkninjasmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\ai\\2024\\mgpumneuralnetworkninjas\\mgpumneuralnetworkninjasattacker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\2024\\mgpumneuralnetworkninjas\\mgpumneuralnetworkninjasattacker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\sets\\mgpumbaseset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\sets\\mgpumbaseset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\ai\\2024\\debugpunktlogklammeraufklammerzu\\scoringunits\\wolli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\2024\\debugpunktlogklammeraufklammerzu\\scoringunits\\wolli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\ai\\2024\\debugpunktlogklammeraufklammerzu\\scoringunits\\sneip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\2024\\debugpunktlogklammeraufklammerzu\\scoringunits\\sneip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\ai\\2024\\debugpunktlogklammeraufklammerzu\\scoringunits\\bummz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\2024\\debugpunktlogklammeraufklammerzu\\scoringunits\\bummz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\ai\\2024\\debugpunktlogklammeraufklammerzu\\scoringunits\\bellie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\2024\\debugpunktlogklammeraufklammerzu\\scoringunits\\bellie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\ai\\2024\\debugpunktlogklammeraufklammerzu\\strivingpositionsforfigures.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\2024\\debugpunktlogklammeraufklammerzu\\strivingpositionsforfigures.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\ai\\2024\\aiprofis\\mgpumaiprofisastar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\2024\\aiprofis\\mgpumaiprofisastar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\ai\\2024\\aiprofis\\mgpumaiprofiscommandhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\2024\\aiprofis\\mgpumaiprofiscommandhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\ai\\2024\\aiprofis\\mgpumaiprofisscorecomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\2024\\aiprofis\\mgpumaiprofisscorecomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\ai\\2024\\aiprofis\\mgpumaiprofispumlinamepreferencecomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\2024\\aiprofis\\mgpumaiprofispumlinamepreferencecomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\ai\\2024\\pengustudios\\mgpumpengustudiosaihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\2024\\pengustudios\\mgpumpengustudiosaihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\assets\\minigame\\pummelz\\ai\\2024\\pengustudios\\mgpumpengustudiosrandomaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F77F26-2FB5-5AA1-6749-320A96B24898}|Assembly-CSharp.csproj|solutionrelative:assets\\minigame\\pummelz\\ai\\2024\\pengustudios\\mgpumpengustudiosrandomaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MGPumAllYourBaseBelongToUsController.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\MGPumAllYourBaseBelongToUsController.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\2024\\MGPumAllYourBaseBelongToUsController.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\MGPumAllYourBaseBelongToUsController.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\2024\\MGPumAllYourBaseBelongToUsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T16:34:54.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MGPumAtzenAIPlayerController.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\MGPumAtzenAIPlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\2024\\MGPumAtzenAIPlayerController.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\MGPumAtzenAIPlayerController.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\2024\\MGPumAtzenAIPlayerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T18:33:17.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MGPumBruteForceAIPlayerController.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\MGPumBruteForceAIPlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\2024\\MGPumBruteForceAIPlayerController.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\MGPumBruteForceAIPlayerController.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\2024\\MGPumBruteForceAIPlayerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T19:13:42.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MGPumPenguStudiosAIPlayerController.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\pengustudios\\MGPumPenguStudiosAIPlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\2024\\pengustudios\\MGPumPenguStudiosAIPlayerController.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\pengustudios\\MGPumPenguStudiosAIPlayerController.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\2024\\pengustudios\\MGPumPenguStudiosAIPlayerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T13:38:01.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MGPumMiyagiDoKIAIPlayerController.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\MiyagiDoKi\\MGPumMiyagiDoKIAIPlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\2024\\MiyagiDoKi\\MGPumMiyagiDoKIAIPlayerController.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\MiyagiDoKi\\MGPumMiyagiDoKIAIPlayerController.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\2024\\MiyagiDoKi\\MGPumMiyagiDoKIAIPlayerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T16:42:34.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MGPumTRENAIPlayerController.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\MGPumTRENAIPlayerController\\MGPumTRENAIPlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\2024\\MGPumTRENAIPlayerController\\MGPumTRENAIPlayerController.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\MGPumTRENAIPlayerController\\MGPumTRENAIPlayerController.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\2024\\MGPumTRENAIPlayerController\\MGPumTRENAIPlayerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T14:51:59.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MGPumNeuralNetworkNinjasAIPlayerController.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\MGPumNeuralNetworkNinjas\\MGPumNeuralNetworkNinjasAIPlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\2024\\MGPumNeuralNetworkNinjas\\MGPumNeuralNetworkNinjasAIPlayerController.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\MGPumNeuralNetworkNinjas\\MGPumNeuralNetworkNinjasAIPlayerController.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\2024\\MGPumNeuralNetworkNinjas\\MGPumNeuralNetworkNinjasAIPlayerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T18:15:59.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MGPumDebugPunktLogKlammerAufKlammerZuAIPlayerController.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\DebugPunktLogKlammerAufKlammerZu\\MGPumDebugPunktLogKlammerAufKlammerZuAIPlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\2024\\DebugPunktLogKlammerAufKlammerZu\\MGPumDebugPunktLogKlammerAufKlammerZuAIPlayerController.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\DebugPunktLogKlammerAufKlammerZu\\MGPumDebugPunktLogKlammerAufKlammerZuAIPlayerController.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\2024\\DebugPunktLogKlammerAufKlammerZu\\MGPumDebugPunktLogKlammerAufKlammerZuAIPlayerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T14:34:44.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MGPumAIProfisAIPlayerController.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\AIProfis\\MGPumAIProfisAIPlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\2024\\AIProfis\\MGPumAIProfisAIPlayerController.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\AIProfis\\MGPumAIProfisAIPlayerController.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\2024\\AIProfis\\MGPumAIProfisAIPlayerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T14:14:24.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MGPummelz.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\frontend\\MGPummelz.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\frontend\\MGPummelz.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\frontend\\MGPummelz.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\frontend\\MGPummelz.cs",
+              "ViewState": "AQIAABYBAAAAAAAAAAAAACUBAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T13:38:36.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MGPumFieldRender.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\frontend\\MGPumFieldRender.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\frontend\\MGPumFieldRender.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\frontend\\MGPumFieldRender.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\frontend\\MGPumFieldRender.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAADwAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T19:09:49.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MGPumCampaign.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\encounters\\MGPumCampaign.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\encounters\\MGPumCampaign.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\encounters\\MGPumCampaign.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\encounters\\MGPumCampaign.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAADYAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T19:09:46.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MGPumSimpleAIPlayerController.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\MGPumSimpleAIPlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\MGPumSimpleAIPlayerController.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\MGPumSimpleAIPlayerController.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\MGPumSimpleAIPlayerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T19:09:36.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MGPumNeuralNetworkNinjasMover.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\MGPumNeuralNetworkNinjas\\MGPumNeuralNetworkNinjasMover.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\2024\\MGPumNeuralNetworkNinjas\\MGPumNeuralNetworkNinjasMover.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\MGPumNeuralNetworkNinjas\\MGPumNeuralNetworkNinjasMover.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\2024\\MGPumNeuralNetworkNinjas\\MGPumNeuralNetworkNinjasMover.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAowDAAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T18:23:54.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MGPumNeuralNetworkNinjasAttacker.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\MGPumNeuralNetworkNinjas\\MGPumNeuralNetworkNinjasAttacker.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\2024\\MGPumNeuralNetworkNinjas\\MGPumNeuralNetworkNinjasAttacker.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\MGPumNeuralNetworkNinjas\\MGPumNeuralNetworkNinjasAttacker.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\2024\\MGPumNeuralNetworkNinjas\\MGPumNeuralNetworkNinjasAttacker.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T18:19:08.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MGPumBaseSet.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\sets\\MGPumBaseSet.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\sets\\MGPumBaseSet.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\sets\\MGPumBaseSet.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\sets\\MGPumBaseSet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:00:41.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Wolli.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\DebugPunktLogKlammerAufKlammerZu\\ScoringUnits\\Wolli.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\2024\\DebugPunktLogKlammerAufKlammerZu\\ScoringUnits\\Wolli.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\DebugPunktLogKlammerAufKlammerZu\\ScoringUnits\\Wolli.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\2024\\DebugPunktLogKlammerAufKlammerZu\\ScoringUnits\\Wolli.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T14:47:24.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Sneip.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\DebugPunktLogKlammerAufKlammerZu\\ScoringUnits\\Sneip.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\2024\\DebugPunktLogKlammerAufKlammerZu\\ScoringUnits\\Sneip.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\DebugPunktLogKlammerAufKlammerZu\\ScoringUnits\\Sneip.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\2024\\DebugPunktLogKlammerAufKlammerZu\\ScoringUnits\\Sneip.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwBUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T14:46:56.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Bummz.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\DebugPunktLogKlammerAufKlammerZu\\ScoringUnits\\Bummz.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\2024\\DebugPunktLogKlammerAufKlammerZu\\ScoringUnits\\Bummz.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\DebugPunktLogKlammerAufKlammerZu\\ScoringUnits\\Bummz.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\2024\\DebugPunktLogKlammerAufKlammerZu\\ScoringUnits\\Bummz.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T14:46:48.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Bellie.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\DebugPunktLogKlammerAufKlammerZu\\ScoringUnits\\Bellie.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\2024\\DebugPunktLogKlammerAufKlammerZu\\ScoringUnits\\Bellie.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\DebugPunktLogKlammerAufKlammerZu\\ScoringUnits\\Bellie.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\2024\\DebugPunktLogKlammerAufKlammerZu\\ScoringUnits\\Bellie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T14:41:43.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StrivingPositionsForFigures.txt",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\DebugPunktLogKlammerAufKlammerZu\\StrivingPositionsForFigures.txt",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\2024\\DebugPunktLogKlammerAufKlammerZu\\StrivingPositionsForFigures.txt",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\DebugPunktLogKlammerAufKlammerZu\\StrivingPositionsForFigures.txt",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\2024\\DebugPunktLogKlammerAufKlammerZu\\StrivingPositionsForFigures.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-25T14:34:54.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MGPumAIProfisPumliNamePreferenceComparer.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\AIProfis\\MGPumAIProfisPumliNamePreferenceComparer.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\2024\\AIProfis\\MGPumAIProfisPumliNamePreferenceComparer.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\AIProfis\\MGPumAIProfisPumliNamePreferenceComparer.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\2024\\AIProfis\\MGPumAIProfisPumliNamePreferenceComparer.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABgAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T14:15:25.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MGPumAIProfisCommandHelper.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\AIProfis\\MGPumAIProfisCommandHelper.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\2024\\AIProfis\\MGPumAIProfisCommandHelper.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\AIProfis\\MGPumAIProfisCommandHelper.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\2024\\AIProfis\\MGPumAIProfisCommandHelper.cs",
+              "ViewState": "AQIAANsAAAAAAAAAAAAWwOkAAACsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T14:15:18.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MGPumAIProfisAStar.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\AIProfis\\MGPumAIProfisAStar.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\2024\\AIProfis\\MGPumAIProfisAStar.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\AIProfis\\MGPumAIProfisAStar.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\2024\\AIProfis\\MGPumAIProfisAStar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T14:15:11.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MGPumAIProfisScoreComparer.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\AIProfis\\MGPumAIProfisScoreComparer.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\2024\\AIProfis\\MGPumAIProfisScoreComparer.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\AIProfis\\MGPumAIProfisScoreComparer.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\2024\\AIProfis\\MGPumAIProfisScoreComparer.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T14:15:59.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MGPumPenguStudiosAIHelper.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\pengustudios\\MGPumPenguStudiosAIHelper.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\2024\\pengustudios\\MGPumPenguStudiosAIHelper.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\pengustudios\\MGPumPenguStudiosAIHelper.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\2024\\pengustudios\\MGPumPenguStudiosAIHelper.cs",
+              "ViewState": "AQIAAIIAAAAAAAAAAAAAAJwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T13:37:11.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MGPumPenguStudiosRandomAIController.cs",
+              "DocumentMoniker": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\pengustudios\\MGPumPenguStudiosRandomAIController.cs",
+              "RelativeDocumentMoniker": "Assets\\minigame\\pummelz\\ai\\2024\\pengustudios\\MGPumPenguStudiosRandomAIController.cs",
+              "ToolTip": "C:\\DHBW\\ai_game_development\\Projekte\\MGPummelzFull2024\\Assets\\minigame\\pummelz\\ai\\2024\\pengustudios\\MGPumPenguStudiosRandomAIController.cs",
+              "RelativeToolTip": "Assets\\minigame\\pummelz\\ai\\2024\\pengustudios\\MGPumPenguStudiosRandomAIController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T07:32:54.864Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

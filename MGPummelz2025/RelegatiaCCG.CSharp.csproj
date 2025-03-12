@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A90F77E5-6B25-8FDD-7CCE-7DEE11DA88B0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.4.1f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Texture.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\ImportBehaviour.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SpriteDepthInMap.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileAnimator.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledInitialShaderProperties.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
+    <Compile Include="Assets\rccg\ai\AIPlayerController.cs" />
+    <Compile Include="Assets\rccg\ai\AIPlayerDummyController.cs" />
+    <Compile Include="Assets\rccg\ai\FirstFitAIPlayerController.cs" />
+    <Compile Include="Assets\rccg\ai\GreedyAIPlayerController.cs" />
+    <Compile Include="Assets\rccg\collection\Collection.cs" />
+    <Compile Include="Assets\rccg\collection\CollectionItem.cs" />
+    <Compile Include="Assets\rccg\collection\DeckList.cs" />
+    <Compile Include="Assets\rccg\collection\DeckListHandler.cs" />
+    <Compile Include="Assets\rccg\collection\DeckListItem.cs" />
+    <Compile Include="Assets\rccg\collection\sorters\SetElementComparison.cs" />
+    <Compile Include="Assets\rccg\crafting\CraftingHandler.cs" />
+    <Compile Include="Assets\rccg\crafting\CraftingRule.cs" />
+    <Compile Include="Assets\rccg\crafting\CraftingRulesBundle.cs" />
+    <Compile Include="Assets\rccg\crafting\common\CommonCraftingRulesBundle.cs" />
+    <Compile Include="Assets\rccg\crafting\common\RarityUpshiftCraftingRule.cs" />
+    <Compile Include="Assets\rccg\engine\CMDPlayerController.cs" />
+    <Compile Include="Assets\rccg\engine\ElementType.cs" />
+    <Compile Include="Assets\rccg\engine\EventTriggerHandler.cs" />
+    <Compile Include="Assets\rccg\engine\GameCommands.cs" />
+    <Compile Include="Assets\rccg\engine\GameConfig.cs" />
+    <Compile Include="Assets\rccg\engine\GameController.cs" />
+    <Compile Include="Assets\rccg\engine\GameEntity.cs" />
+    <Compile Include="Assets\rccg\engine\GameStateRuleApplier.cs" />
+    <Compile Include="Assets\rccg\engine\IDeepCopy.cs" />
+    <Compile Include="Assets\rccg\engine\Player.cs" />
+    <Compile Include="Assets\rccg\engine\PlayerCommands.cs" />
+    <Compile Include="Assets\rccg\engine\PlayerConfig.cs" />
+    <Compile Include="Assets\rccg\engine\PlayerController.cs" />
+    <Compile Include="Assets\rccg\engine\PlayerDummyController.cs" />
+    <Compile Include="Assets\rccg\engine\abilities\AF.cs" />
+    <Compile Include="Assets\rccg\engine\abilities\Ability.cs" />
+    <Compile Include="Assets\rccg\engine\abilities\ActivatedAbility.cs" />
+    <Compile Include="Assets\rccg\engine\abilities\OngoingAbility.cs" />
+    <Compile Include="Assets\rccg\engine\abilities\TriggeredAbility.cs" />
+    <Compile Include="Assets\rccg\engine\card\ActionCard.cs" />
+    <Compile Include="Assets\rccg\engine\card\AvatarCard.cs" />
+    <Compile Include="Assets\rccg\engine\card\CAT.cs" />
+    <Compile Include="Assets\rccg\engine\card\CNAT.cs" />
+    <Compile Include="Assets\rccg\engine\card\CRT.cs" />
+    <Compile Include="Assets\rccg\engine\card\CT.cs" />
+    <Compile Include="Assets\rccg\engine\card\Card.cs" />
+    <Compile Include="Assets\rccg\engine\card\Character.cs" />
+    <Compile Include="Assets\rccg\engine\card\Permanent.cs" />
+    <Compile Include="Assets\rccg\engine\card\ResourceCard.cs" />
+    <Compile Include="Assets\rccg\engine\card\STT.cs" />
+    <Compile Include="Assets\rccg\engine\card\Transient.cs" />
+    <Compile Include="Assets\rccg\engine\card\Troop.cs" />
+    <Compile Include="Assets\rccg\engine\card\UnknownCard.cs" />
+    <Compile Include="Assets\rccg\engine\choices\Choice.cs" />
+    <Compile Include="Assets\rccg\engine\choices\ListChoice.cs" />
+    <Compile Include="Assets\rccg\engine\choices\MultiChoice.cs" />
+    <Compile Include="Assets\rccg\engine\choices\OneChoice.cs" />
+    <Compile Include="Assets\rccg\engine\commands\ActivateAbilityCommand.cs" />
+    <Compile Include="Assets\rccg\engine\commands\AttackCommand.cs" />
+    <Compile Include="Assets\rccg\engine\commands\Command.cs" />
+    <Compile Include="Assets\rccg\engine\commands\EndTurnCommand.cs" />
+    <Compile Include="Assets\rccg\engine\commands\MoveTroopCommand.cs" />
+    <Compile Include="Assets\rccg\engine\commands\PlayCardCommand.cs" />
+    <Compile Include="Assets\rccg\engine\conditions\CF.cs" />
+    <Compile Include="Assets\rccg\engine\conditions\Condition.cs" />
+    <Compile Include="Assets\rccg\engine\conditions\Duration.cs" />
+    <Compile Include="Assets\rccg\engine\conditions\events\ActionPlayedCondition.cs" />
+    <Compile Include="Assets\rccg\engine\conditions\events\DamagedCondition.cs" />
+    <Compile Include="Assets\rccg\engine\conditions\events\DestroyCondition.cs" />
+    <Compile Include="Assets\rccg\engine\conditions\events\EndOfTurnCondition.cs" />
+    <Compile Include="Assets\rccg\engine\conditions\events\EnterBattlegroundsCondition.cs" />
+    <Compile Include="Assets\rccg\engine\conditions\events\EventCondition.cs" />
+    <Compile Include="Assets\rccg\engine\conditions\events\HealedCondition.cs" />
+    <Compile Include="Assets\rccg\engine\conditions\events\ResourcePlayedCondition.cs" />
+    <Compile Include="Assets\rccg\engine\conditions\events\SimpleEventCondition.cs" />
+    <Compile Include="Assets\rccg\engine\conditions\state\AllCondition.cs" />
+    <Compile Include="Assets\rccg\engine\conditions\state\CountMinCondition.cs" />
+    <Compile Include="Assets\rccg\engine\conditions\state\HandCountCondition.cs" />
+    <Compile Include="Assets\rccg\engine\conditions\state\SourceCondition.cs" />
+    <Compile Include="Assets\rccg\engine\conditions\state\StateCondition.cs" />
+    <Compile Include="Assets\rccg\engine\conditions\state\SubCondition.cs" />
+    <Compile Include="Assets\rccg\engine\costs\ActivateThisCost.cs" />
+    <Compile Include="Assets\rccg\engine\costs\Cost.cs" />
+    <Compile Include="Assets\rccg\engine\costs\ResourceCost.cs" />
+    <Compile Include="Assets\rccg\engine\costs\ResourceCrystal.cs" />
+    <Compile Include="Assets\rccg\engine\counts\Count.cs" />
+    <Compile Include="Assets\rccg\engine\counts\DestroyedTroopCount.cs" />
+    <Compile Include="Assets\rccg\engine\counts\FilterCount.cs" />
+    <Compile Include="Assets\rccg\engine\effects\BanishPermanentEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\BuffEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\ConditionalEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\CreateTroopEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\DamageCharacterCountEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\DamageCharacterEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\DestroyTroopEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\DiscardCardsEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\DiscardCardsFromDeckEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\DrawCardEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\DrawCardsCountEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\DrawCardsEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\DrawSpecificCardsEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\Effect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\EffectSequenceItem.cs" />
+    <Compile Include="Assets\rccg\engine\effects\FullHealEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\GrantBuffEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\HealCharacterEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\IncreaseMultiResourcesEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\IncreaseResourcesEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\ModalEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\MultiEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\OneTimeEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\PutPermanentInDeckEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\ReturnCardFromDiscardPileEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\ReturnPermanentToHandEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\SequentialEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\SingleEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\SwitchPowerHealthEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\ongoing\BuffOEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\ongoing\OngoingEffect.cs" />
+    <Compile Include="Assets\rccg\engine\effects\state\EffectExecutionState.cs" />
+    <Compile Include="Assets\rccg\engine\events\ActivateCardEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\AttackDamageEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\AvatarCardOnFieldEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\AvatarsDefeatedEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\BuffCharacterEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\CardOnFieldEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\CreateTroopEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\DamageCharacterEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\DeQueueEffectEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\DestroyAvatarEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\DiscardCardEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\DiscardCardFromDeckEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\DrawCardEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\EndGameEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\ExpireAbilityEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\FizzleEffectEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\GameEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\GrantAbilityEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\GrantCharacterAbilityEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\GrantCharacterNumberedAbilityEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\HealCharacterEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\IncreaseResourcesEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\MoveTroopEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\NewTurnEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\OutOfCardsEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\PayResourceCostEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\QueueEffectEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\RecalculateStateEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\RefreshCardEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\RemoveCardFromDeckEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\ResourceCardPlayedEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\ShuffleDeckEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\StartGameRunningEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\SwitchPowerAndHealthEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\ZoneChangeEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\complex\ComplexGameEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\complex\DiscardCardsCEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\complex\SequentialCGameEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\handlers\CommandQueueHandler.cs" />
+    <Compile Include="Assets\rccg\engine\events\handlers\EventQueueHandler.cs" />
+    <Compile Include="Assets\rccg\engine\events\handlers\GameEventHandler.cs" />
+    <Compile Include="Assets\rccg\engine\events\super\ActivateAbilitySEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\super\ApplyStateRulesSEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\super\AttackFightSEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\super\AttackPostSEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\super\AttackStartSEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\super\BanishPermanentSEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\super\DestroyTroopSEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\super\DetermineResultSEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\super\DiscardCardsFromDeckSEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\super\DrawCardsSEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\super\EffectSEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\super\EndTurnSEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\super\NextTurnSEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\super\PayCostSEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\super\PlayActionSEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\super\PlayTroopSEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\super\PositionAvatarSEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\super\ProcessQueuedEffectsSEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\super\PutPermanentInDeckSEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\super\ReturnCardFromDiscardPileToHandSEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\super\ReturnPermanentToHandSEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\super\StartGameSEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\super\StartTurnSEvent.cs" />
+    <Compile Include="Assets\rccg\engine\events\super\SuperEvent.cs" />
+    <Compile Include="Assets\rccg\engine\exceptions\GameException.cs" />
+    <Compile Include="Assets\rccg\engine\filters\AllPlayersFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\AlliedFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\AnyFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\CharacterFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\DamagedFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\DestroyedFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\DiscardPileFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\DummyFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\ElementAnyFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\EmptyFieldFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\EnemyFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\FF.cs" />
+    <Compile Include="Assets\rccg\engine\filters\FieldFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\Filter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\HandFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\LST.cs" />
+    <Compile Include="Assets\rccg\engine\filters\LaneFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\NotElementFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\NotSourceFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\OpponentFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\PST.cs" />
+    <Compile Include="Assets\rccg\engine\filters\RST.cs" />
+    <Compile Include="Assets\rccg\engine\filters\RarityFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\RowFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\SingleCardFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\SourceFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\SubFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\TroopTypeFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\TypeAllowedOnFieldFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\TypeFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\YouFilter.cs" />
+    <Compile Include="Assets\rccg\engine\filters\ZoneFilter.cs" />
+    <Compile Include="Assets\rccg\engine\result\GameResult.cs" />
+    <Compile Include="Assets\rccg\engine\result\GameResultType.cs" />
+    <Compile Include="Assets\rccg\engine\selectors\EventFilter.cs" />
+    <Compile Include="Assets\rccg\engine\selectors\MultiSelection.cs" />
+    <Compile Include="Assets\rccg\engine\selectors\MultiSelector.cs" />
+    <Compile Include="Assets\rccg\engine\selectors\RandomSelect.cs" />
+    <Compile Include="Assets\rccg\engine\selectors\RandomSelection.cs" />
+    <Compile Include="Assets\rccg\engine\selectors\Selection.cs" />
+    <Compile Include="Assets\rccg\engine\selectors\Selector.cs" />
+    <Compile Include="Assets\rccg\engine\state\EffectExecutionQueueItem.cs" />
+    <Compile Include="Assets\rccg\engine\state\EffectQueueItem.cs" />
+    <Compile Include="Assets\rccg\engine\state\GameLog.cs" />
+    <Compile Include="Assets\rccg\engine\state\GameState.cs" />
+    <Compile Include="Assets\rccg\engine\state\GameStateConsistencyChecker.cs" />
+    <Compile Include="Assets\rccg\engine\state\GameStateHandler.cs" />
+    <Compile Include="Assets\rccg\engine\state\GameStateOracle.cs" />
+    <Compile Include="Assets\rccg\engine\state\GameStatePerspectiveType.cs" />
+    <Compile Include="Assets\rccg\engine\state\IDManager.cs" />
+    <Compile Include="Assets\rccg\engine\state\OracleBoolResult.cs" />
+    <Compile Include="Assets\rccg\engine\targets\CardTarget.cs" />
+    <Compile Include="Assets\rccg\engine\targets\EffectTarget.cs" />
+    <Compile Include="Assets\rccg\engine\targets\FieldTarget.cs" />
+    <Compile Include="Assets\rccg\engine\targets\MultiTarget.cs" />
+    <Compile Include="Assets\rccg\engine\targets\PlayerTarget.cs" />
+    <Compile Include="Assets\rccg\engine\targets\Target.cs" />
+    <Compile Include="Assets\rccg\engine\targets\template\EffectTTemplate.cs" />
+    <Compile Include="Assets\rccg\engine\targets\template\MultiTTemplate.cs" />
+    <Compile Include="Assets\rccg\engine\targets\template\SingleCardTTemplate.cs" />
+    <Compile Include="Assets\rccg\engine\targets\template\SingleFieldTTemplate.cs" />
+    <Compile Include="Assets\rccg\engine\targets\template\SinglePlayerTTemplate.cs" />
+    <Compile Include="Assets\rccg\engine\targets\template\TTF.cs" />
+    <Compile Include="Assets\rccg\engine\targets\template\TargetTemplate.cs" />
+    <Compile Include="Assets\rccg\engine\visibility\ConcealEvent.cs" />
+    <Compile Include="Assets\rccg\engine\visibility\ConcealExceptChosenEvent.cs" />
+    <Compile Include="Assets\rccg\engine\visibility\RevealEvent.cs" />
+    <Compile Include="Assets\rccg\engine\visibility\Visibility.cs" />
+    <Compile Include="Assets\rccg\engine\visibility\VisibilityEvent.cs" />
+    <Compile Include="Assets\rccg\engine\zones\Banishment.cs" />
+    <Compile Include="Assets\rccg\engine\zones\CardCollection.cs" />
+    <Compile Include="Assets\rccg\engine\zones\Deck.cs" />
+    <Compile Include="Assets\rccg\engine\zones\DiscardPile.cs" />
+    <Compile Include="Assets\rccg\engine\zones\Hand.cs" />
+    <Compile Include="Assets\rccg\engine\zones\Pile.cs" />
+    <Compile Include="Assets\rccg\engine\zones\UnknownDeck.cs" />
+    <Compile Include="Assets\rccg\engine\zones\Zone.cs" />
+    <Compile Include="Assets\rccg\engine\zones\ZoneType.cs" />
+    <Compile Include="Assets\rccg\engine\zones\battlegrounds\Field.cs" />
+    <Compile Include="Assets\rccg\engine\zones\battlegrounds\Fields.cs" />
+    <Compile Include="Assets\rccg\engine\zones\battlegrounds\LaneType.cs" />
+    <Compile Include="Assets\rccg\engine\zones\battlegrounds\RowType.cs" />
+    <Compile Include="Assets\rccg\engine\zones\uris\DeckZoneURI.cs" />
+    <Compile Include="Assets\rccg\engine\zones\uris\NoneZoneURI.cs" />
+    <Compile Include="Assets\rccg\engine\zones\uris\SimpleZoneURI.cs" />
+    <Compile Include="Assets\rccg\engine\zones\uris\ZoneURI.cs" />
+    <Compile Include="Assets\rccg\formats\CardCountRule.cs" />
+    <Compile Include="Assets\rccg\formats\DeckLimitRule.cs" />
+    <Compile Include="Assets\rccg\formats\Format.cs" />
+    <Compile Include="Assets\rccg\formats\FormatCheckResult.cs" />
+    <Compile Include="Assets\rccg\formats\FormatHandler.cs" />
+    <Compile Include="Assets\rccg\formats\FormatRule.cs" />
+    <Compile Include="Assets\rccg\formats\FormatRuleResult.cs" />
+    <Compile Include="Assets\rccg\formats\FormatRuleViolation.cs" />
+    <Compile Include="Assets\rccg\frontend\CardRenderClickHandler.cs" />
+    <Compile Include="Assets\rccg\frontend\ClickInterpreter.cs" />
+    <Compile Include="Assets\rccg\frontend\DropInterpreter.cs" />
+    <Compile Include="Assets\rccg\frontend\DroppableBehaviour.cs" />
+    <Compile Include="Assets\rccg\frontend\GUIChoiceHandler.cs" />
+    <Compile Include="Assets\rccg\frontend\GUICommandHandler.cs" />
+    <Compile Include="Assets\rccg\frontend\GUIController.cs" />
+    <Compile Include="Assets\rccg\frontend\GUIControls.cs" />
+    <Compile Include="Assets\rccg\frontend\GUIElements.cs" />
+    <Compile Include="Assets\rccg\frontend\GUIGameStateHandler.cs" />
+    <Compile Include="Assets\rccg\frontend\GUIGameType.cs" />
+    <Compile Include="Assets\rccg\frontend\GUIMode.cs" />
+    <Compile Include="Assets\rccg\frontend\GUIModeHandler.cs" />
+    <Compile Include="Assets\rccg\frontend\GUIPlayerController.cs" />
+    <Compile Include="Assets\rccg\frontend\GUIResourceLoader.cs" />
+    <Compile Include="Assets\rccg\frontend\GUIVisibilityHandler.cs" />
+    <Compile Include="Assets\rccg\frontend\GameControllerThread.cs" />
+    <Compile Include="Assets\rccg\frontend\LanguageDropdown.cs" />
+    <Compile Include="Assets\rccg\frontend\PlayerPanel.cs" />
+    <Compile Include="Assets\rccg\frontend\PlayerSelectable.cs" />
+    <Compile Include="Assets\rccg\frontend\ShownStateHandler.cs" />
+    <Compile Include="Assets\rccg\frontend\ZoneButton.cs" />
+    <Compile Include="Assets\rccg\frontend\animations\CardAnimMode.cs" />
+    <Compile Include="Assets\rccg\frontend\animations\CardRenderAnimator.cs" />
+    <Compile Include="Assets\rccg\frontend\animations\CardRenderAnimatorTester.cs" />
+    <Compile Include="Assets\rccg\frontend\animations\DamageCharacterAnimator.cs" />
+    <Compile Include="Assets\rccg\frontend\animations\GUIAnimator.cs" />
+    <Compile Include="Assets\rccg\frontend\animations\ParallelAnimator.cs" />
+    <Compile Include="Assets\rccg\frontend\animations\SequentialAnimator.cs" />
+    <Compile Include="Assets\rccg\frontend\animations\ShowTextAnimator.cs" />
+    <Compile Include="Assets\rccg\frontend\animations\SwitchAndShowTextAnimator.cs" />
+    <Compile Include="Assets\rccg\frontend\animations\SwitchModeCardRenderAnimator.cs" />
+    <Compile Include="Assets\rccg\frontend\animations\TeleportCardRenderAnimator.cs" />
+    <Compile Include="Assets\rccg\frontend\animations\TextAnimMode.cs" />
+    <Compile Include="Assets\rccg\frontend\common\CardCreator.cs" />
+    <Compile Include="Assets\rccg\frontend\common\CommonGUIHandler.cs" />
+    <Compile Include="Assets\rccg\frontend\common\DefaultTooltipCreator.cs" />
+    <Compile Include="Assets\rccg\frontend\common\ScreenFader.cs" />
+    <Compile Include="Assets\rccg\frontend\common\TooltipCreator.cs" />
+    <Compile Include="Assets\rccg\frontend\crafting\CraftingGUIController.cs" />
+    <Compile Include="Assets\rccg\frontend\crafting\CraftingGUIElements.cs" />
+    <Compile Include="Assets\rccg\frontend\deckbuilding\CardAlbumEntryRender.cs" />
+    <Compile Include="Assets\rccg\frontend\deckbuilding\CardAlbumRender.cs" />
+    <Compile Include="Assets\rccg\frontend\deckbuilding\CardWindowRender.cs" />
+    <Compile Include="Assets\rccg\frontend\deckbuilding\DeckBuildGUIController.cs" />
+    <Compile Include="Assets\rccg\frontend\deckbuilding\DeckBuildGUIElements.cs" />
+    <Compile Include="Assets\rccg\frontend\dragdrop\IDraggable.cs" />
+    <Compile Include="Assets\rccg\frontend\dragdrop\IDroppable.cs" />
+    <Compile Include="Assets\rccg\frontend\renders\CardRender.cs" />
+    <Compile Include="Assets\rccg\frontend\renders\CardRenderMode.cs" />
+    <Compile Include="Assets\rccg\frontend\renders\DeckPileRender.cs" />
+    <Compile Include="Assets\rccg\frontend\renders\DiscardPileRender.cs" />
+    <Compile Include="Assets\rccg\frontend\renders\EffectRender.cs" />
+    <Compile Include="Assets\rccg\frontend\renders\FieldRender.cs" />
+    <Compile Include="Assets\rccg\frontend\renders\HandRender.cs" />
+    <Compile Include="Assets\rccg\frontend\renders\HandRenderPosition.cs" />
+    <Compile Include="Assets\rccg\frontend\renders\ResourceBoxRender.cs" />
+    <Compile Include="Assets\rccg\frontend\renders\deckbuilding\DeckBuildAvatarFieldRender.cs" />
+    <Compile Include="Assets\rccg\frontend\renders\deckbuilding\DeckBuildCollectionRender.cs" />
+    <Compile Include="Assets\rccg\frontend\renders\deckbuilding\DeckBuildDeckRender.cs" />
+    <Compile Include="Assets\rccg\frontendcommon\CommonController.cs" />
+    <Compile Include="Assets\rccg\frontendcommon\SceneController.cs" />
+    <Compile Include="Assets\rccg\frontendcommon\SceneMemory.cs" />
+    <Compile Include="Assets\rccg\frontendcommon\SceneResult.cs" />
+    <Compile Include="Assets\rccg\frontendcommon\SceneType.cs" />
+    <Compile Include="Assets\rccg\i18n\I18n.cs" />
+    <Compile Include="Assets\rccg\i18n\I18nizable.cs" />
+    <Compile Include="Assets\rccg\i18n\scripting\I18nBrotherNode.cs" />
+    <Compile Include="Assets\rccg\i18n\scripting\I18nCapitalizationNode.cs" />
+    <Compile Include="Assets\rccg\i18n\scripting\I18nCondition.cs" />
+    <Compile Include="Assets\rccg\i18n\scripting\I18nConditionNode.cs" />
+    <Compile Include="Assets\rccg\i18n\scripting\I18nExpressionParameter.cs" />
+    <Compile Include="Assets\rccg\i18n\scripting\I18nKeyNode.cs" />
+    <Compile Include="Assets\rccg\i18n\scripting\I18nKeyParameterNode.cs" />
+    <Compile Include="Assets\rccg\i18n\scripting\I18nListNode.cs" />
+    <Compile Include="Assets\rccg\i18n\scripting\I18nMethodParameter.cs" />
+    <Compile Include="Assets\rccg\i18n\scripting\I18nNode.cs" />
+    <Compile Include="Assets\rccg\i18n\scripting\I18nParameter.cs" />
+    <Compile Include="Assets\rccg\i18n\scripting\I18nParameterDefinedCondition.cs" />
+    <Compile Include="Assets\rccg\i18n\scripting\I18nParameterEqualsCondition.cs" />
+    <Compile Include="Assets\rccg\i18n\scripting\I18nParameterNode.cs" />
+    <Compile Include="Assets\rccg\i18n\scripting\I18nParameters.cs" />
+    <Compile Include="Assets\rccg\i18n\scripting\I18nParseResult.cs" />
+    <Compile Include="Assets\rccg\i18n\scripting\I18nStringParameter.cs" />
+    <Compile Include="Assets\rccg\i18n\scripting\I18nTextNode.cs" />
+    <Compile Include="Assets\rccg\i18n\scripting\I18nizableParameter.cs" />
+    <Compile Include="Assets\rccg\networking\ClientInfo.cs" />
+    <Compile Include="Assets\rccg\networking\NetworkController.cs" />
+    <Compile Include="Assets\rccg\networking\NetworkGameController.cs" />
+    <Compile Include="Assets\rccg\networking\Networking.cs" />
+    <Compile Include="Assets\rccg\networking\RCCGNetworkClient.cs" />
+    <Compile Include="Assets\rccg\networking\RCCGNetworkServer.cs" />
+    <Compile Include="Assets\rccg\networking\RemotePlayerClientController.cs" />
+    <Compile Include="Assets\rccg\networking\RemotePlayerServerController.cs" />
+    <Compile Include="Assets\rccg\networking\messages\EventUpdateMessage.cs" />
+    <Compile Include="Assets\rccg\networking\messages\GetReadyMessage.cs" />
+    <Compile Include="Assets\rccg\networking\messages\IsReadyMessage.cs" />
+    <Compile Include="Assets\rccg\networking\messages\JoinGameMessage.cs" />
+    <Compile Include="Assets\rccg\networking\messages\Message.cs" />
+    <Compile Include="Assets\rccg\networking\messages\MessageType.cs" />
+    <Compile Include="Assets\rccg\networking\messages\StateUpdateMessage.cs" />
+    <Compile Include="Assets\rccg\rpg\RPGConstants.cs" />
+    <Compile Include="Assets\rccg\rpg\RPGController.cs" />
+    <Compile Include="Assets\rccg\rpg\camera\RPGCamera.cs" />
+    <Compile Include="Assets\rccg\rpg\commands\CCGCommands.cs" />
+    <Compile Include="Assets\rccg\rpg\commands\RPGCommands.cs" />
+    <Compile Include="Assets\rccg\rpg\control\RPGControlInterceptor.cs" />
+    <Compile Include="Assets\rccg\rpg\control\RPGPlayerControls.cs" />
+    <Compile Include="Assets\rccg\rpg\hero\RPGHero.cs" />
+    <Compile Include="Assets\rccg\rpg\memory\RPGObjectMemory.cs" />
+    <Compile Include="Assets\rccg\rpg\memory\StoryModeSceneMemory.cs" />
+    <Compile Include="Assets\rccg\rpg\menu\RPGMenu.cs" />
+    <Compile Include="Assets\rccg\rpg\npc\BossNPCCardPlayer.cs" />
+    <Compile Include="Assets\rccg\rpg\npc\DirectionType.cs" />
+    <Compile Include="Assets\rccg\rpg\npc\NPC.cs" />
+    <Compile Include="Assets\rccg\rpg\npc\NPCCardPlayer.cs" />
+    <Compile Include="Assets\rccg\rpg\npc\NPCChest.cs" />
+    <Compile Include="Assets\rccg\rpg\npc\NPCVendor.cs" />
+    <Compile Include="Assets\rccg\rpg\npc\RPGCharAnimMode.cs" />
+    <Compile Include="Assets\rccg\rpg\npc\RPGCharacter.cs" />
+    <Compile Include="Assets\rccg\rpg\npc\RPGObject.cs" />
+    <Compile Include="Assets\rccg\rpg\npc\StandardNPCCardPlayer.cs" />
+    <Compile Include="Assets\rccg\rpg\text\AnswerType.cs" />
+    <Compile Include="Assets\rccg\rpg\text\Textbox.cs" />
+    <Compile Include="Assets\rccg\rpg\text\param.cs" />
+    <Compile Include="Assets\rccg\save\SaveState.cs" />
+    <Compile Include="Assets\rccg\sets\BasicSet.cs" />
+    <Compile Include="Assets\rccg\sets\DebugSet.cs" />
+    <Compile Include="Assets\rccg\sets\LegendsOfRelegatia.cs" />
+    <Compile Include="Assets\rccg\sets\Set.cs" />
+    <Compile Include="Assets\rccg\sets\SetHandler.cs" />
+    <Compile Include="Assets\rccg\sets\booster\Booster.cs" />
+    <Compile Include="Assets\rccg\sets\booster\BoosterGenerator.cs" />
+    <Compile Include="Assets\rccg\test\MessageFragmentationTest.cs" />
+    <Compile Include="Assets\rccg\util\CheckableEnumerator.cs" />
+    <Compile Include="Assets\rccg\util\ReturnableCoroutine.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Resources\deck\bauchi.txt" />
+    <None Include="Assets\Resources\deck\boss.txt" />
+    <None Include="Assets\Resources\deck\darkness.txt" />
+    <None Include="Assets\Resources\deck\earth.txt" />
+    <None Include="Assets\Resources\deck\fire.txt" />
+    <None Include="Assets\Resources\deck\firestest01.txt" />
+    <None Include="Assets\Resources\deck\light.txt" />
+    <None Include="Assets\Resources\deck\randompile.txt" />
+    <None Include="Assets\Resources\deck\snappy.txt" />
+    <None Include="Assets\Resources\deck\test1.txt" />
+    <None Include="Assets\Resources\deck\water.txt" />
+    <None Include="Assets\Resources\deck\wind.txt" />
+    <None Include="Assets\Resources\i18n\de_base.txt" />
+    <None Include="Assets\Resources\i18n\de_cards.txt" />
+    <None Include="Assets\Resources\i18n\en_base.txt" />
+    <None Include="Assets\Resources\i18n\en_cards.txt" />
+    <None Include="Assets\Resources\i18n\en_set_basic.txt" />
+    <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
+    <None Include="Assets\Tiled2Unity\Imported\testmap.tiled2unity.xml" />
+    <None Include="Assets\Tiled2Unity\License.txt" />
+    <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
+    <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
+    <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
+    <None Include="Assets\Tiled2Unity\Shaders\shaColorKey.shader" />
+    <None Include="Assets\Tiled2Unity\Shaders\shaDefault.shader" />
+    <None Include="Assets\Tiled2Unity\Shaders\shaDepth.shader" />
+    <None Include="Assets\Tiled2Unity\Shaders\shaDepthColorKey.shader" />
+    <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
+    <None Include="Assets\Tiled2Unity\Textures\_ReadMe.txt" />
+    <None Include="Assets\Tiled2Unity\Tiled2Unity.export.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>
