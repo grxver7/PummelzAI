@@ -82,7 +82,7 @@ namespace mg.pummelz
             MGPumField safestField = null;
             int maxDistance = -1;
 
-            foreach (MGPumField field in state.fields.getFieldsInRange(czaremir.field.coords, czaremir.speed))
+            foreach (MGPumField field in getFieldsInRangeForCzaremir(czaremir.field.coords, czaremir.currentSpeed))
             {
                 int distance = calculateDistanceToNearestEnemy(field.coords);
                 if (distance > maxDistance)
@@ -123,7 +123,7 @@ namespace mg.pummelz
                 MGPumMoveCommand moveCommand = findMoveTowardsTarget(tank, czaremir.field.coords);
                 if (moveCommand != null)
                 {
-                    stateOracle.executeCommand(moveCommand);
+                    executeCommandOnState(moveCommand);
                 }
             }
 
@@ -135,7 +135,7 @@ namespace mg.pummelz
                 MGPumMoveCommand moveCommand = findMoveTowardsTarget(rangedUnit, czaremir.field.coords);
                 if (moveCommand != null)
                 {
-                    stateOracle.executeCommand(moveCommand);
+                    executeCommandOnState(moveCommand);
                 }
             }
         }
@@ -151,7 +151,7 @@ namespace mg.pummelz
         {
             foreach (MGPumUnit unit in state.getAllUnitsInZone(MGPumZoneType.Battlegrounds, this.playerID))
             {
-                if (unit.range == 1 && unit.power >= target.health) // Nahkampfeinheit mit ausreichender Stärke
+                if (unit.currentRange == 1 && unit.currentPower >= target.currentHealth) // Nahkampfeinheit mit ausreichender Stärke
                 {
                     return unit;
                 }
@@ -164,7 +164,7 @@ namespace mg.pummelz
         {
             foreach (MGPumUnit unit in state.getAllUnitsInZone(MGPumZoneType.Battlegrounds, state.getOpponent(this.playerID).playerID))
             {
-                if (unit.range > 1 && unit.field.coords == czaremir.field.coords) // Fernkämpfer in der Nähe von Czaremir
+                if (unit.currentRange > 1 && unit.field.coords == czaremir.field.coords) // Fernkämpfer in der Nähe von Czaremir
                 {
                     return unit;
                 }
@@ -184,7 +184,7 @@ namespace mg.pummelz
             List<MGPumUnit> tanks = new List<MGPumUnit>();
             foreach (MGPumUnit unit in state.getAllUnitsInZone(MGPumZoneType.Battlegrounds, this.playerID))
             {
-                if (unit.health >= 5) // Beispiel: Einheiten mit mindestens 5 Lebenspunkten
+                if (unit.currentMaxHealth >= 5) // Beispiel: Einheiten mit mindestens 5 Lebenspunkten
                 {
                     tanks.Add(unit);
                 }
@@ -198,12 +198,37 @@ namespace mg.pummelz
             List<MGPumUnit> rangedUnits = new List<MGPumUnit>();
             foreach (MGPumUnit unit in state.getAllUnitsInZone(MGPumZoneType.Battlegrounds, this.playerID))
             {
-                if (unit.range > 1) // Fernkampfeinheiten
+                if (unit.currentRange > 1) // Fernkampfeinheiten
                 {
                     rangedUnits.Add(unit);
                 }
             }
             return rangedUnits;
         }
+
+        // Neue Hilfsmethode: Finde Felder im Bereich für Czaremir
+        private IEnumerable<MGPumField> getFieldsInRangeForCzaremir(Vector2Int coords, int range)
+        {
+            List<MGPumField> fieldsInRange = new List<MGPumField>();
+            for (int x = coords.x - range; x <= coords.x + range; x++)
+            {
+                for (int y = coords.y - range; y <= coords.y + range; y++)
+                {
+                    Vector2Int newCoords = new Vector2Int(x, y);
+                    if (state.fields.inBounds(newCoords))
+                    {
+                        fieldsInRange.Add(state.fields.getField(newCoords));
+                    }
+                }
+            }
+            return fieldsInRange;
+        }
+
+        // Neue Hilfsmethode: Führe einen Befehl im Zustand aus
+        private void executeCommandOnState(MGPumCommand command)
+        {
+            command.apply(state);
+        }
+
     }
 }

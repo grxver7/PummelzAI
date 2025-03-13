@@ -25,7 +25,7 @@ namespace mg.pummelz
         private MGPumCommand handleOwnMampfred(MGPumUnit mampfred)
         {
             // Überprüfe, ob Mampfred Schaden erlitten hat
-            if (mampfred.health < mampfred.maxHealth)
+            if (mampfred.currentHealth < mampfred.currentMaxHealth)
             {
                 // Suche Gras-Terrain in der Nähe
                 MGPumField grassField = findGrassFieldNearby(mampfred);
@@ -80,7 +80,7 @@ namespace mg.pummelz
         // Hilfsmethode: Finde Gras-Terrain in der Nähe
         private MGPumField findGrassFieldNearby(MGPumUnit unit)
         {
-            foreach (MGPumField field in state.fields.getFieldsInRange(unit.field.coords, 3)) // Beispiel: Suche innerhalb von 3 Feldern
+            foreach (MGPumField field in getFieldsInRangeHelper(unit.field.coords, 3)) // Beispiel: Suche innerhalb von 3 Feldern
             {
                 if (field.terrain == MGPumField.Terrain.Grass)
                 {
@@ -112,7 +112,7 @@ namespace mg.pummelz
         {
             foreach (MGPumUnit unit in state.getAllUnitsInZone(MGPumZoneType.Battlegrounds, this.playerID))
             {
-                if (unit.type == "Mampfred")
+                if (unit.name == "Mampfred")
                 {
                     return unit;
                 }
@@ -133,7 +133,7 @@ namespace mg.pummelz
                     MGPumMoveCommand moveCommand = findMoveTowardsTarget(unit, grassField.coords);
                     if (moveCommand != null)
                     {
-                        stateOracle.executeCommand(moveCommand);
+                        stateHandler.applyEvent(moveCommand);
                     }
                 }
             }
@@ -147,7 +147,7 @@ namespace mg.pummelz
             List<MGPumUnit> units = new List<MGPumUnit>();
             foreach (MGPumUnit unit in state.getAllUnitsInZone(MGPumZoneType.Battlegrounds, this.playerID))
             {
-                if (unit.type != "Mampfred") // Vermeide, Mampfred zu bewegen
+                if (unit.name != "Mampfred") // Vermeide, Mampfred zu bewegen
                 {
                     int distance = Mathf.Abs(unit.field.coords.x - grassField.coords.x) + Mathf.Abs(unit.field.coords.y - grassField.coords.y);
                     if (distance <= 5) // Beispiel: Einheiten innerhalb von 5 Feldern
@@ -158,5 +158,23 @@ namespace mg.pummelz
             }
             return units;
         }
+
+        // Neue Hilfsmethode: Finde Felder in Reichweite
+        private IEnumerable<MGPumField> getFieldsInRangeHelper(Vector2Int coords, int range)
+        {
+            List<MGPumField> fieldsInRange = new List<MGPumField>();
+            for (int x = coords.x - range; x <= coords.x + range; x++)
+            {
+                for (int y = coords.y - range; y <= coords.y + range; y++)
+                {
+                    if (state.fields.inBounds(new Vector2Int(x, y)))
+                    {
+                        fieldsInRange.Add(state.fields.getField(new Vector2Int(x, y)));
+                    }
+                }
+            }
+            return fieldsInRange;
+        }
     }
 }
+

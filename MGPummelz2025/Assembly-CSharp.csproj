@@ -183,6 +183,7 @@
     <Compile Include="Assets\minigame\pummelz\events\MGPumInstantiateUnitEvent.cs" />
     <Compile Include="Assets\minigame\pummelz\filters\MGPumEmptyFieldFilter.cs" />
     <Compile Include="Assets\rccg\frontend\animations\CurveAnimator.cs" />
+    <Compile Include="Assets\minigame\pummelz\ai\strategicBehaviour\hoppel.cs" />
     <Compile Include="Assets\minigame\pummelz\frontend\MGPumYSorter.cs" />
     <Compile Include="Assets\minigame\pummelz\events\MGPumGrantExtraTurnEvent.cs" />
     <Compile Include="Assets\minigame\pummelz\matcher\MGPumFieldChain.cs" />

@@ -107,5 +107,61 @@ namespace mg.pummelz
             }
             return null;
         }
+
+        // Neue Methode: Finde ein Flanking-Feld für eine Einheit
+        private MGPumCommand useTerrainShortcuts(MGPumUnit fluffy)
+        {
+            // Beispielimplementierung: Bewege Fluffy zu einem zufälligen Feld
+            List<MGPumField> possibleFields = state.fields
+                .Where(f => f.unit == null && f.terrain != MGPumField.Terrain.Water && f.terrain != MGPumField.Terrain.Mountain)
+                .ToList();
+
+            if (possibleFields.Count > 0)
+            {
+                MGPumField targetField = possibleFields[rng.Next(possibleFields.Count)];
+                return new MGPumMoveCommand(this.playerID, new MGPumFieldChain(this.playerID, fluffy.getMoveMatcher()), fluffy);
+            }
+
+            return null;
+        }
+
+        private MGPumUnit findValuableTarget()
+        {
+            // Beispielimplementierung: Finde die gegnerische Einheit mit dem höchsten Wert
+            return state.players
+                .Where(p => p.playerID != this.playerID)
+                .SelectMany(p => state.getAllUnitsInZone(MGPumZoneType.Battlegrounds, p.playerID)) // Verwende getAllUnitsInZone
+                .OrderByDescending(u => u.currentPower)
+                .FirstOrDefault();
+        }
+
+        private List<MGPumUnit> findImportantUnits()
+        {
+            // Beispielimplementierung: Finde alle Einheiten mit hohem Wert
+            return state.players
+                .Where(p => p.playerID == this.playerID)
+                .SelectMany(p => state.getAllUnitsInZone(MGPumZoneType.Battlegrounds, p.playerID)) // Verwende getAllUnitsInZone
+                .Where(u => u.currentPower > 5) // Beispielkriterium
+                .ToList();
+        }
+
+        // Fehlende Methode hinzugefügt
+        private MGPumField findFlankingField(MGPumUnit fluffy, MGPumUnit valuableTarget)
+        {
+            // Beispielimplementierung: Finde ein benachbartes Feld des wertvollen Ziels
+            foreach (Vector2Int direction in getDirections())
+            {
+                Vector2Int neighborPosition = valuableTarget.field.coords + direction;
+                if (state.fields.inBounds(neighborPosition))
+                {
+                    MGPumField neighborField = state.fields.getField(neighborPosition);
+                    if (neighborField.unit == null)
+                    {
+                        return neighborField;
+                    }
+                }
+            }
+            return null;
+        }
     }
 }

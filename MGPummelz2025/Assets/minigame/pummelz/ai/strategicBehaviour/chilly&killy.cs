@@ -128,7 +128,7 @@ namespace mg.pummelz
         // Hilfsmethode: Finde ein Lava-Feld in der Nähe
         private MGPumField findLavaFieldNearby(MGPumUnit unit)
         {
-            foreach (MGPumField field in state.fields.getFieldsInRange(unit.field.coords, 3))
+            foreach (MGPumField field in getFieldsInRange(unit.field.coords, 3))
             {
                 if (field.terrain == MGPumField.Terrain.Lava)
                 {
@@ -163,6 +163,27 @@ namespace mg.pummelz
         private MGPumCommand blockKillyMovement(MGPumUnit killy)
         {
             // Implementiere die Logik zur Blockierung von Killy
+            return null;
+        }
+
+        // Neue Hilfsmethode: Finde den besten Angreifer
+        private MGPumUnit findBestAttacker(MGPumUnit target)
+        {
+            // Implementiere die Logik zur Bestimmung des besten Angreifers
+            return null;
+        }
+
+        // Neue Hilfsmethode: Finde einen sicheren Bewegungsbefehl
+        private MGPumCommand findSafeMoveCommand(MGPumUnit unit)
+        {
+            // Implementiere die Logik zur Bestimmung eines sicheren Bewegungsbefehls
+            return null;
+        }
+
+        // Neue Hilfsmethode: Finde Felder in Reichweite
+        private IEnumerable<MGPumField> getFieldsInRange(Vector2Int coords, int range)
+        {
+            // Implementiere die Logik zur Bestimmung der Felder in Reichweite
             return null;
         }
     }

@@ -25,7 +25,7 @@ namespace mg.pummelz
         private MGPumCommand handleOwnLink(MGPumUnit link)
         {
             // Finde andere Links in der Nähe
-            List<MGPumUnit> nearbyLinks = findNearbyLinks(link);
+            List<MGPumUnit> nearbyLinks = findNearbyLinksForOwn(link);
             if (nearbyLinks.Count > 0)
             {
                 // Bewege Link in Richtung des nächsten Links
@@ -65,8 +65,8 @@ namespace mg.pummelz
             return approachWithMultipleUnits(link);
         }
 
-        // Hilfsmethode: Finde andere Links in der Nähe
-        private List<MGPumUnit> findNearbyLinks(MGPumUnit link)
+        // Hilfsmethode: Finde andere Links in der Nähe für eigenen Link
+        private List<MGPumUnit> findNearbyLinksForOwn(MGPumUnit link)
         {
             List<MGPumUnit> nearbyLinks = new List<MGPumUnit>();
             foreach (MGPumUnit unit in state.getAllUnitsInZone(MGPumZoneType.Battlegrounds, this.playerID))
@@ -114,6 +114,16 @@ namespace mg.pummelz
             }
 
             return null;
+        }
+
+        private List<MGPumUnit> findMultipleAttackers(MGPumUnit link)
+        {
+            // Beispielimplementierung: Finde mehrere Einheiten, um Link anzugreifen
+            return state.players
+                .Where(p => p.playerID != this.playerID)
+                .SelectMany(p => state.getAllUnitsInZone(MGPumZoneType.Battlegrounds, p.playerID)) // Verwende getAllUnitsInZone
+                .Where(u => u.currentPower > 3) // Beispielkriterium
+                .ToList();
         }
     }
 }

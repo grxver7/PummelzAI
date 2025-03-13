@@ -155,7 +155,7 @@ namespace mg.pummelz
         {
             foreach (MGPumUnit unit in state.getAllUnitsInZone(MGPumZoneType.Battlegrounds, this.playerID))
             {
-                if (unit.range > 1) // Einheit mit Fernkampf
+                if (unit.currentRange > 1) // Einheit mit Fernkampf
                 {
                     return unit;
                 }

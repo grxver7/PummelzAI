@@ -87,5 +87,52 @@ namespace mg.pummelz
             }
             return null;
         }
+
+        // Hilfsmethode: Finde Verbündete in der Nähe
+        private List<MGPumUnit> findNearbyAllies(MGPumUnit unit)
+        {
+            List<MGPumUnit> nearbyAllies = new List<MGPumUnit>();
+            foreach (MGPumUnit ally in state.getAllUnitsInZone(MGPumZoneType.Battlegrounds, this.playerID))
+            {
+                int distance = Mathf.Abs(unit.field.coords.x - ally.field.coords.x) + Mathf.Abs(unit.field.coords.y - ally.field.coords.y);
+                if (distance <= 2) // Beispiel: Einheiten innerhalb von 2 Feldern Entfernung
+                {
+                    nearbyAllies.Add(ally);
+                }
+            }
+            return nearbyAllies;
+        }
+
+        // Hilfsmethode: Finde eine Fernkampfeinheit in der Nähe
+        private MGPumUnit findRangedAlly(MGPumUnit unit)
+        {
+            foreach (MGPumUnit ally in state.getAllUnitsInZone(MGPumZoneType.Battlegrounds, this.playerID))
+            {
+                if (ally.currentRange > 1) // Fernkampfeinheit
+                {
+                    return ally;
+                }
+            }
+            return null;
+        }
+
+        // Hilfsmethode: Finde die nächste Einheit
+        private MGPumUnit findClosestUnit(MGPumUnit unit, List<MGPumUnit> units)
+        {
+            MGPumUnit closestUnit = null;
+            int closestDistance = int.MaxValue;
+
+            foreach (MGPumUnit u in units)
+            {
+                int distance = Mathf.Abs(unit.field.coords.x - u.field.coords.x) + Mathf.Abs(unit.field.coords.y - u.field.coords.y);
+                if (distance < closestDistance)
+                {
+                    closestDistance = distance;
+                    closestUnit = u;
+                }
+            }
+
+            return closestUnit;
+        }
     }
 }
